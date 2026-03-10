@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "my-hello-route": {
+      "enabled": true,
+      "algorithm": "token-bucket",
+      "scope": "ip",
+      "limit": 1,
+      "unit": "second"
+    }
+  }
+}

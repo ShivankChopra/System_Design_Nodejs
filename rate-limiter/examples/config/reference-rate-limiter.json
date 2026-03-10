@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "marketing-post": {
+      "enabled": true,
+      "algorithm": "token-bucket",
+      "scope": "ip",
+      "limit": 10,
+      "unit": "minute"
+    },
+    "login-user": {
+      "enabled": true,
+      "algorithm": "token-bucket",
+      "scope": "custom",
+      "extractorName": "userId",
+      "limit": 5,
+      "unit": "minute"
+    },
+    "public-api-global": {
+      "enabled": true,
+      "algorithm": "token-bucket",
+      "scope": "global",
+      "limit": 1000,
+      "unit": "minute"
+    }
+  }
+}
