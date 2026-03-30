@@ -1,15 +1,15 @@
 {
-  "name": "system-design-primer",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "node rate-limiter/tests/smoke.js",
-    "demo:rate-limiter": "node rate-limiter/demo/server.js"
-  },
-  "dependencies": {
-    "express": "^4.21.2"
-  },
-  "author": "Shivank Chopra",
-  "license": "ISC",
-  "description": ""
+    "name": "system-design-primer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "demo:rate-limiter": "node rate-limiter/demo/server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "murmurhash": "^2.0.1"
+    },
+    "author": "Shivank Chopra",
+    "license": "ISC",
+    "description": ""
 }
